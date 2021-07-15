@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/load"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="10sp"
+                android:text="Load" />
+            <Button
+                android:id="@+id/rewardBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:enabled="false"
+                android:text="Get Reward" />
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Difficulty waking up in the morning causes"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Difficulty getting up in the morning isn’t just about loving your sleep and hating mornings. Lifestyle factors, medical conditions, and medications can make it hard to wake up. These include:
+
+parasomnias, such as sleepwalking, sleep talking, and night terrors
+sleep apnea, which causes periods of stopped breathing during sleep
+sleep deficiency, which can involve not getting good quality sleep, or sleep deprivation, which is not getting enough sleep
+stress and anxiety, which can interfere with your ability to fall asleep or stay asleep
+depression, which has been linkedTrusted Source to excessive daytime sleepiness and insomnia
+circadian rhythm sleep disorders, which can prevent you from developing a regular sleep routine, such as shift work sleep disorder and irregular sleep-wake disorder
+certain medications, including beta blockers, certain muscle relaxants, and selective serotonin reuptake inhibitor antidepressants
+chronic pain, which can make it difficult to get a good night’s sleep"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+
+</ScrollView>

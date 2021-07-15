@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/nextArticle"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next Article"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10 Reasons to Get Up Early — Because Early Rising Isn't Just for Birds"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:textColor="@color/black"
+           />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/they_say_the_early_bird_catches_the_worm_gross_worms_are_hardly_an_incentive_for_humans_to_get_up_early_unless_you_re_heading_out_to_fish_and_hoping_for_some_free_bait_still_waking_up_early_does_have_some_perks_so_what_re_the_benefits_contemplating_setting_your_alarm_for_an_eye_scorchingly_early_hour_here_s_why_it_might_be_worth_it_more_time_for_yourself_if_you_live_with_other_humans_little_ones_or_adults_getting_up_early_could_give_you_some_much_needed_and_desperately_wanted_time_for_yourself_more_time_to_sip_that_coffee_slowly_while_flipping_through_the_paper_or_just_enjoying_the_silence_can_help_prepare_you_to_face_a_hectic_day_feeling_a_little_more_chill_more_time_to_exercise_if_working_out_is_important_to_you_but_you_often_struggle_to_find_the_time_getting_up_early_could_be_the_ticket_getting_your_exercise_in_first_thing_remedies_the_temptation_to_skip_workouts_because_of_job_or_social_commitments_later_in_the_day_or_plain_old_tiredness_and_while_we_re_on_the_subject_of_feeling_tired_here_s_another_perk_of_morning_workouts_exercise_initiates_a_surge_of_those_feel_good_endorphins_that_can_improve_your_mood_lower_stress_and_anxiety_and_increase_energy_levels_you_re_welcome_less_time_in_traffic_getting_up_and_out_of_the_house_early_can_help_you_beat_the_usual_traffic_which_is_pretty_much_a_universal_plus_less_traffic_doesn_t_just_save_you_time_and_money_it_can_also_help_protect_your_health_and_well_being_as_research_has_linked_sitting_in_traffic_to_stresstrusted_source_depression_aggression_and_rage_respiratory_issues"
+            android:textSize="10sp"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+
+
+</ScrollView>
